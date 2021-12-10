@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@300&display=swap');
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  line-height: 1;
+  font-size: 3vh;
+  font-family: 'KoHo', sans-serif;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+ol, ul {
+  list-style: none;
+}
+
+form {
+  font-family: Verdana;
+  background-color: #2b87dd;
+  width: 40%;
+  margin: 10vh auto;
+  padding: 3vh;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+form .form__item {
+  width: 100%;
+  margin: 1vh;
+  text-align: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+}
+.word{
+  background: palevioletred;
+  height: 30vh !important;
+  border-radius: 2vh;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.word span{
+  width: 100%;
+}
+.word span button{
+  font-size: inherit;
+  background:hotpink;
+  border-radius:1vh;
+}
+.answers{
+  justify-content: space-between !important;
+}
+.check{
+  font-size: 2vw;
+  background:palevioletred;
+  border-radius:1vh;
+}
+@media (max-width: 1158px) {
+  form .form__item {
+    width: 80%;
+    margin: 2vh auto;
+  }
+}

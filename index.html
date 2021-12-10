@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+		
+		<title>CatSlots</title>
+	</head>
+	<body>
+		<form>
+			<div class = "form__item word">
+				<span>
+					Choose you level!
+				</span>
+				<span>
+					<label>Easy</label>
+					<input name = "difficulty" value = "Easy" type = "radio" checked>
+					<label>Medium</label>
+					<input name = "difficulty" value = "Medium" type = "radio">
+					<label>Hard</label>
+					<input name = "difficulty" value = "Hard" type = "radio">
+				</span>
+				<span>
+					<button onclick="Start();return false;">
+						Start
+					</button>
+				</span>
+				
+			</div>
+			<div class = "form__item">
+				<div id = "try">
+					0/10
+				</div>
+			</div>
+			<div class = "form__item">
+				<input class = "check" id = "check" type = "text" placeholder="Type answer here">
+			</div>
+			<div class = "form__item answers">
+				<span id = "Correct">
+					Correct
+				</span>
+				<span id = "Incorrect"> 
+					Incorrect
+				</span>
+			</div>
+		</form>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>
